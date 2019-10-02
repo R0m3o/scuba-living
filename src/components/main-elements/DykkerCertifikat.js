@@ -1,13 +1,14 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import PADI from '../../assets/images/static/padi.logo.png';
 
 const DykkerCertifikat = ()=> {
     return (
         <section className="contain" id="dykkerCertifikat">
             <div className="row bg-gray">
-                <h3 className="bg-black text-white col-md-6">PADI - DYKKERCERTIFIKAT</h3>
+                <h2 className="bg-black text-white col-md-6">PADI - DYKKERCERTIFIKAT</h2>
             </div>
-            <article className="row border-black">
+            <article className="row border-black" aria-label="denne article handler om at tage et dykkercertifikat">
                 <div className="col-md-6">
                     <p className="title">TAG ET INTERNATIONALT ANERKENDT DYKKERCERTIFIKAT</p>
                     <p>
@@ -28,7 +29,7 @@ const DykkerCertifikat = ()=> {
                 </div>
             </article>
             <div className="row">
-                <a href="#" className="offset-md-3 col-md-6 text-center">SE ALLE KURSER OG CERTIFIKATER HER!</a>
+                <NavLink to="/dykkercertifikat" className="nav-link offset-md-3 col-md-6 text-center">SE ALLE KURSER OG CERTIFIKATER HER!</NavLink>
             </div>
         </section>
     )
