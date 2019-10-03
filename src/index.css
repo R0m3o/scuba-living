@@ -19,11 +19,22 @@
   background-color: rgba(240, 240, 240, 0.6);
 }
 
+.bg-blue{
+  background-color: #2D2AC9;
+}
+
 .banner-background-img{
   background-image: url(./assets/images/static/scuba.banner.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 200px 0px 240px;
+}
+
+.new-user .banner-background-img{
+  background-image: url(./assets/images/static/scuba.banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 140px 0px 180px;
 }
 
 /*----------TEXT----------*/
@@ -53,6 +64,10 @@ body {
   background-color: #FFFFFF;
 }
 
+.nav-link:hover{
+  color: #2D2AC9;
+}
+
 /*-----HEADER-----*/
 header .col-md-1, header .col-md-2, header .col-md-3, header .col-md-4, header .col-md-5,
 header .col-md-6, header .col-md-7, header .col-md-8, header .col-md-9, header .col-md-10, 
@@ -78,6 +93,77 @@ article{
   box-shadow: 0px 0px 5px 1px #CCCCCC;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.form-btn{
+  border: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.form-btn:first-child{
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
+.form-btn:last-child{
+  margin-left: 5px;
+  margin-right: 0px;
+}
+
+/*LOG IND*/
+.login-form{
+  padding: 20px 10px;
+}
+
+.login-form input{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/*OPRET BRUGER*/
+.new-user-form{
+  padding: 20px 10px;
+}
+
+.new-user-form input{
+  margin-bottom: 10px;
+}
+
+.new-user-form input:nth-child(odd){
+  margin-left: 1%; 
+}
+
+.new-user-form input:nth-child(even){
+  margin-right: 1%; 
+}
+
+.new-user-form .bruger-kode{
+  margin: 0px 0px 10px 0px !important; 
+}
+
+.bruger-email, .bruger-kode{
+  width: 70%;
+}
+
+.bruger-fornavn, .bruger-efternavn, .bruger-by, .bruger-gade{
+  width: 48.5%;
+}
+
+.bruger-telefon{
+  width: 27%;
+}
+
+.bruger-post-nr, .bruger-hus-nr{
+  width: 15%;
+}
+
+.new-user-form .row{
+  margin: 0px 0px 10px;
+}
+
+.new-user-form p{
+  margin-right: 5px;
 }
 
 /*BANNER*/
