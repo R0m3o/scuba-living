@@ -29,7 +29,7 @@ const DykkerCertifikat = ()=> {
                 </div>
             </article>
             <div className="row">
-                <NavLink to="/dykkercertifikat" className="nav-link offset-md-3 col-md-6 text-center">SE ALLE KURSER OG CERTIFIKATER HER!</NavLink>
+                <NavLink to="/dykkerkurser" className="nav-link offset-md-3 col-md-6 text-center">SE ALLE KURSER OG CERTIFIKATER HER!</NavLink>
             </div>
         </section>
     )
